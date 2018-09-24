@@ -1,0 +1,30 @@
+/**
+*Folha de estilo principal do site html + css3
+*@author Marcos Vinicius
+*/
+
+/*******Importante font ***********/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/***************Principal************/
+body{
+	font-family: 'Open Sans', sans-serif;
+	background-color: #8e8e8e;
+	background-image: url("../imagens/plano.jpg");
+	background-attachment: fixed; /*fixa o background*/
+	background-size: cover; /*manter o tamanho de forma responsiva*/
+	font-size: 1em; /*1 em é igual a 16px */
+}
+
+#main{
+	max-width: 1024px;
+	background-color: #fff;
+	margin: 0 auto; /*Centralizar site */
+}
+
+
+/*********** Tratamento Responsivo**********/
+
+img {
+	max-width: 100%; /*Todas as imagens do site ficam responsivas */
+}
